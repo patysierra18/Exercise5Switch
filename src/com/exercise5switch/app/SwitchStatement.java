@@ -21,15 +21,10 @@ public class SwitchStatement {
 	{
 		nMonth=0;
 		//Input data validation
-		while(nMonth<=0)
-		{
+		
 		System.out.println("Give me a month number:");
 		nMonth = input.nextInt();
-		if(nMonth<=0)
-		{
-			System.out.println("Not valid data!!"); 
-		}
-		
+				
 		switch(nMonth)
 		{
 		case 1: System.out.println("January");
@@ -67,8 +62,8 @@ public class SwitchStatement {
 		
 	} while (answer=='y');
 		
-	
+	}
 
 }
-	}
-}
+	
+
